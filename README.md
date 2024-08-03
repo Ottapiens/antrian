@@ -8,7 +8,7 @@ Aplikasi web ini hanya terdapat admin saja untuk mengelola antrian pasien. Untuk
 
 Untuk fitur, mohon Anda bisa melihat pada <a href="https://github.com/galihap76/antrian/releases/">rilis aplikasi</a>.
 
-## Install
+## Install ⚙️
 
 Jika Anda ingin menggunakan aplikasi web ini, cara nya cukup mudah. Ikuti langkah langkah ini :
 
