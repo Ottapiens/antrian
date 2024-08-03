@@ -4,6 +4,26 @@ Saya membangun aplikasi web ini untuk Anda jika Anda mencari sebuah referensi ap
 
 Aplikasi web ini hanya terdapat admin saja untuk mengelola antrian pasien. Untuk masuk ke sistem gunakan username **admin_antrian_rs** dan password **Antr!anR$1234Secure**. Semoga aplikasi ini dapat memberikan inspirasi dan solusi dalam pengembangan sistem antrian yang lebih efektif.
 
+## Fitur 📱
+
+Untuk fitur, mohon Anda bisa melihat pada <a href="https://github.com/galihap76/antrian/releases/">rilis aplikasi</a>.
+
+## Install
+
+Jika Anda ingin menggunakan aplikasi web ini, cara nya cukup mudah. Ikuti langkah langkah ini :
+
+1. Lakukan git clone :
+```
+git clone https://github.com/galihap76/antrian.git
+```
+ 
+2. Import database nya yang berada pada folder **assets/** dengan nama file database **db_antrian.sql**.
+
+3. Lalu Anda bisa mengakses nya dengan URL :
+```
+http://localhost/antrian/login.php
+```
+
 ## Screenshots 📸
 
 | ![image](https://github.com/user-attachments/assets/935455cf-5c0a-43c4-913b-6b607fe3c35a) | ![image](https://github.com/user-attachments/assets/8cebab0e-8044-402b-a217-786b67ca4bc5)
@@ -24,6 +44,6 @@ Jadi, saya harus menggunakan API eksternal untuk mendukung browser lain agar pem
 
 ## Penutup
 
-Jika ada pertanyaan bisa tekan tombol <a href="https://github.com/galihap76/antrian/issues">issues</a>. Terima kasih.
+Terakhir, versi PHP yang di gunakan adalah 8.2, sesuaikan pada versi PHP milik Anda. Jika ada pertanyaan bisa tekan tombol <a href="https://github.com/galihap76/antrian/issues">issues</a>. Terima kasih.
 
 
