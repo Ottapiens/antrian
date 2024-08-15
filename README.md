@@ -17,7 +17,7 @@ Jika Anda ingin menggunakan aplikasi web ini, cara nya cukup mudah. Ikuti langka
 git clone https://github.com/galihap76/antrian.git
 ```
  
-2. Import database nya yang berada pada folder **assets/** dengan nama file database **db_antrian.sql**.
+2. Import database nya yang berada pada folder **assets/** pada nama file database **db_antrian.sql**.
 
 3. Lalu Anda bisa mengakses nya dengan URL :
 ```
