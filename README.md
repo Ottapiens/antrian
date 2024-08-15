@@ -19,10 +19,12 @@ git clone https://github.com/galihap76/antrian.git
  
 2. Import database nya yang berada pada folder **assets/** pada nama file database **db_antrian.sql**.
 
-3. Lalu Anda bisa mengakses nya dengan URL :
+3. Lalu Anda sudah bisa mencoba aplikasi web nya dengan mengakses URL :
 ```
 http://localhost/antrian/login.php
 ```
+
+4. Selesai.
 
 ## Screenshots 📸
 
