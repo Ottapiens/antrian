@@ -39,7 +39,7 @@
          });
      </script>
  <?php } ?>
- <?php if (basename($_SERVER['PHP_SELF']) == 'kelola_antrian.php') { ?>
+ <?php if (basename($_SERVER['PHP_SELF']) == 'hapus_antrian.php') { ?>
 
      <script>
          window.onload = () => {
