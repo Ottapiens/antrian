@@ -46,6 +46,7 @@ Jadi, saya harus menggunakan API eksternal untuk mendukung browser lain agar pem
 
 ## Penutup
 
-Terakhir, versi PHP yang di gunakan adalah 8.2, sesuaikan pada versi PHP milik Anda. Jika ada pertanyaan bisa tekan tombol <a href="https://github.com/galihap76/antrian/issues">issues</a>. Terima kasih.
+Perlu diingat kembali bahwa aplikasi web ini dirancang sebagai referensi bagi seseorang yang sedang mencari contoh aplikasi antrian. Anda diperbolehkan untuk mengubah source code ini, termasuk mengubah struktur folder. Saya merekomendasikan agar Anda mempertimbangkan untuk mengubahnya menjadi arsitektur MVC menggunakan PHP native agar lebih optimal.
 
+Karena aplikasi web ini masih memiliki beberapa kekurangan, saya akan melakukan pembaruan jika ada waktu. Aplikasi ini dibangun menggunakan PHP versi 8.2, jadi pastikan untuk menyesuaikan versi PHP di lingkungan Anda. Jika Anda memiliki pertanyaan silakan tekan tombol <a href="https://github.com/galihap76/antrian/issues">issues</a>. Terima kasih.
 
