@@ -1,3 +1,5 @@
+> ⚠️ Informasi: Repository ini telah diarsipkan secara publik dan tidak akan menerima pembaruan lebih lanjut. Saat ini saya sedang fokus pada kegiatan kuliah dan magang, sehingga pengembangan proyek ini terpaksa saya hentikan dan tidak akan saya lanjutkan di kemudian hari. Saya menyadari bahwa aplikasi ini masih jauh dari sempurna dan belum menerapkan beberapa best practice, seperti struktur folder yang baik, standar keamanan, arsitektur sistem, serta penomoran versi yang konsisten. Mohon dimaklumi, dan semoga repository ini tetap bisa memberikan manfaat sebagai referensi atau bahan pembelajaran.
+
 ## Antrian 🏥
 
 Saya membangun aplikasi web ini untuk Anda jika Anda mencari sebuah referensi aplikasi web antrian. Aplikasi ini layaknya pada aplikasi antrian di rumah sakit seperti memanggil loket antrian menggunakan suara. Dengan antarmuka yang sederhana menggunakan template sb admin 2, aplikasi ini memungkinkan pengelolaan antrian secara efisien dan dapat disesuaikan dengan berbagai kebutuhan institusi atau bisnis Anda.  
