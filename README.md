@@ -52,3 +52,4 @@ Perlu diingat kembali bahwa aplikasi web ini dirancang sebagai referensi bagi se
 
 Karena aplikasi web ini masih memiliki beberapa kekurangan, saya akan melakukan pembaruan jika ada waktu. Aplikasi ini dibangun menggunakan PHP versi 8.2, jadi pastikan untuk menyesuaikan versi PHP di lingkungan Anda. Jika Anda memiliki pertanyaan silakan tekan tombol <a href="https://github.com/galihap76/antrian/issues">issues</a>. Terima kasih.
 
+# update
