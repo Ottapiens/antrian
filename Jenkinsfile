@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        SONAR_TOKEN = credentials('jenkins-token')   // Credential Sonar
-        GITHUB_TOKEN = credentials('CI-CD Token') // Credential GitHub (pull code)
+        SONAR_TOKEN = credentials('sonar-token')   // Credential Sonar
+        GITHUB_TOKEN = credentials('github-token') // Credential GitHub (pull code)
         APP_DIR = '/opt/lampp/htdocs/antrian'     // Lokasi deploy XAMPP
     }
 
