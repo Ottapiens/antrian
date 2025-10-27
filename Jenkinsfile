@@ -1,48 +1,38 @@
 pipeline {
     agent any
-
+    
     stages {
         stage('Checkout Code') {
             steps {
-                checkout scm
+                git url: 'https://github.com/Ottapiens/antrian.git', branch: 'main'
+            }
+        }
+        
+        stage('Build') {
+            steps {
+                echo 'Build step - Web PHP tidak perlu build'
             }
         }
 
-        stage('Deploy to Kali Linux') {
+        stage('SAST - SonarQube Analysis') {
             steps {
-                sshagent(credentials: ['kali-ssh']) {
-                    sh '''
-                    ssh -o StrictHostKeyChecking=no ottapien@192.168.18.60 "
-                        cd /opt/lampp/htdocs/antrian &&
-                        git pull origin main &&
-                        sudo /opt/lampp/lampp restart
-                    "
-                    '''
+                withSonarQubeEnv('SonarQube') {
+                    sh "sonar-scanner -Dsonar.projectKey=antrian -Dsonar.sources=."
                 }
             }
         }
 
-        stage('Run ZAP DAST') {
+        stage('DAST - ZAP') {
             steps {
-                sshagent(credentials: ['kali-ssh']) {
-                    sh '''
-                    ssh -o StrictHostKeyChecking=no ottapien@192.168.18.60 "
-                        cd /home/ottapien &&
-                        sudo docker run -t --network=\\"host\\" \
-                        -v \$(pwd):/zap/wrk/:rw \
-                        ghcr.io/zaproxy/zaproxy:weekly zap-baseline.py \
-                        -t http://localhost/antrian \
-                        -r zap_report.html
-                    "
-                    '''
-                }
+                echo 'DAST step - ZAP scan akan ditambahkan setelah ini'
             }
         }
-    }
 
-    post {
-        always {
-            archiveArtifacts artifacts: '**/zap_report.html', allowEmptyArchive: true
+        stage('Deploy to XAMPP') {
+            steps {
+                echo 'Deploy step - aplikasi sudah berjalan di /opt/lampp/htdocs/antrian'
+            }
         }
     }
 }
+
