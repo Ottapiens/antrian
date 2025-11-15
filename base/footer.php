@@ -13,7 +13,8 @@
         || 'update_antrian.php' || 'index.php'
     ) { ?>
      <!-- Page level plugins -->
-     <script src="assets/vendor/datatables/jquery.dataTables.min.js"></script>
+     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.8/css/jquery.dataTables.min.css">
+	<script src="https://cdn.datatables.net/1.13.8/js/jquery.dataTables.min.js"></script>
      <script src="assets/vendor/datatables/dataTables.bootstrap4.min.js"></script>
 
      <!-- Page level custom scripts -->
