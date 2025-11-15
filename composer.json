@@ -1,0 +1,6 @@
+{
+  "name": "ottapiens/antrian",
+  "description": "Aplikasi Antrian PHP tanpa dependency eksternal.",
+  "type": "project",
+  "require": {}
+}
